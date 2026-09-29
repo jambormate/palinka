@@ -1,6 +1,7 @@
-function Fejlec(){
-    return<>
-        <div className="row">
+function Fejlec() {
+  return (
+    <>
+      <div className="row">
         <div className="col-sm-12 kartya mb-3">
           <div className="mt-2 mb-1 p-5 bg-primary text-white rounded">
             <h1 id="focim">REACT gyakorlás: Komponensekre bontás</h1>
@@ -9,7 +10,7 @@ function Fejlec(){
           </div>
         </div>
       </div>
-
     </>
+  );
 }
-export default Fejlec
+export default Fejlec;
