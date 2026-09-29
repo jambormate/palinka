@@ -1,5 +1,6 @@
 import Bevezeto from "./components/Bevezeto"
 import Fejlec from "./components/fejlec"
+import Fontos from "./components/Fontos"
 import Lablec from "./components/lablec"
 import "bootstrap/dist/css/bootstrap.min.css"
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       {Fejlec()}
       {Bevezeto()}
+      {Fontos()}
       {Lablec()}
     </>
   )
